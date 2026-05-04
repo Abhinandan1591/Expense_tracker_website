@@ -32,6 +32,8 @@ From $ARGUMENTS extract:
 4. `branch_name` — format: `feature/<feature_slug>`
    - Example: `feature/registration`
 
+If you cannot infer these from $ARGUMENTS, ask the user
+to clarify before proceeding.
 
 ## Step 3 — Check branch name is not taken
 Run `git branch` to list existing branches.
